@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Title of the document</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 100vh;
+        width: 100vw;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      div {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        background-color: #3ac995;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 style="color: rgb(240, 241, 255)">Image as a Link</h1>
+      <a href="https://www.karabuk.edu.tr"
+        ><img
+          src="https://www.karabuk.edu.tr/wp-content/uploads/2020/09/unikalogopng.png"
+          alt="html5"
+          style="width: 200px; height: 200px"
+      /></a>
+      <div>
+        <h2 style="color: azure">Image Map</h2>
+        <img
+          src="https://www.trtspor.com.tr/resimler/126000/127385.jpg"
+          usemap="#Map"
+          alt="html5"
+          style="width: 700px; height: 500px"
+        />
+        <map name="Map">
+          <area
+            coords="24,38,204,270"
+            href="https://twitter.com/GalatasaraySK?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          />
+          <area
+            coords="215,43,406,287"
+            href="https://twitter.com/Besiktas?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          />
+          <area
+            coords="414,43,649,268"
+            href="https://twitter.com/Fenerbahce?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          />
+        </map>
+      </div>
+    </div>
+  </body>
+</html>
